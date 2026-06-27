@@ -1,6 +1,4 @@
-/* ============================================
-   BARRA DE PROGRESSO DE LEITURA
-   ============================================ */
+
 function initProgressBar() {
   const bar = document.getElementById('progress-bar');
   if (!bar) return;
@@ -13,9 +11,7 @@ function initProgressBar() {
   });
 }
 
-/* ============================================
-   BOTÃO VOLTAR AO TOPO
-   ============================================ */
+
 function initBtnTopo() {
   const btn = document.getElementById('btn-topo');
   if (!btn) return;
@@ -33,9 +29,6 @@ function initBtnTopo() {
   });
 }
 
-/* ============================================
-   BUSCA SIMULADA
-   ============================================ */
 function initBusca() {
   const form = document.getElementById('form-busca');
   const resultado = document.getElementById('resultado-busca');
@@ -77,9 +70,6 @@ function initBusca() {
   });
 }
 
-/* ============================================
-   INICIALIZAÇÃO
-   ============================================ */
 document.addEventListener('DOMContentLoaded', function () {
   initProgressBar();
   initBtnTopo();
