@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Verbete sobre Netuno — características físicas, ventos supersónicos e dinâmica orbital.">
+  <title>Netuno — Portal Astronomia Acadêmica</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div id="progress-bar" role="progressbar" aria-label="Progresso de leitura"></div>
+  <button id="btn-topo" aria-label="Voltar ao topo">&#8679;</button>
+
+  <header id="cabecalho-principal">
+    <div class="cabecalho-inner">
+      <div class="logo-area">
+        <h1>Portal Astronomia E10 </h1>
+        <p>Portal de referência científica sobre o Sistema Solar</p>
+      </div>
+      <form class="busca-form" id="form-busca" role="search" aria-label="Buscar artigos">
+        <input type="text" id="campo-busca" name="q" placeholder="Buscar artigos..." aria-label="Termo de busca">
+        <button type="submit">Buscar</button>
+      </form>
+    </div>
+  </header>
+
+  <nav id="nav-categorias" aria-label="Categorias">
+    <ul>
+      <li><a href="index.html">Início</a></li>
+      <li><a href="marte.html">Telúrico</a></li>
+      <li><a href="jupiter.html">Joviano</a></li>
+      <li><a href="urano.html" class="ativo">Neptuniano</a></li>
+      <li><a href="glossario.html">Glossário</a></li>
+    </ul>
+  </nav>
+
+  <div class="wrapper">
+
+    <aside id="sidebar-nav" aria-label="Seções do artigo">
+      <h2>Seções</h2>
+      <ul>
+        <li><a href="#introducao">Introdução</a></li>
+        <li><a href="#caracteristicas">Características Físicas</a></li>
+        <li><a href="#atmosfera">Atmosfera</a></li>
+        <li><a href="#exploracao">Exploração</a></li>
+        <li><a href="#dados">Dados Comparativos</a></li>
+        <li><a href="#citacao">Citação Científica</a></li>
+      </ul>
+      <br>
+      <h2>Planetas Relacionados</h2>
+      <ul>
+        <li><a href="jupiter.html">Júpiter</a></li>
+        <li><a href="saturno.html">Saturno</a></li>
+        <li><a href="urano.html">Urano</a></li>
+      </ul>
+    </aside>
+
+    <main id="conteudo">
+
+      <div id="resultado-busca" role="region" aria-live="polite"></div>
+
+      <article class="verbete">
+        <header>
+          <h1 id="topo-artigo">Netuno</h1>
+        </header>
+
+        <section id="introducao">
+          <h3>Introdução</h3>
+          <p>
+            Netuno é o oitavo e mais distante planeta conhecido do Sol no nosos sistema. Diferente de todos os outros mundos rochosos ou gasosos, a existência de Netuno foi primeiro calculada através de <strong>previsões matemáticas</strong> por Urbain Le Verrier antes de ser visualmente confirmada em 1846.
+          </p>
+        </section>
+
+        <section id="caracteristicas">
+          <h3>Características Físicas</h3>
+          <p>
+            Apresentando uma tonalidade azulada profunda e intensa, Netuno abriga sistemas climáticos extremamente dinâmicos. A sonda Voyager 2 registou na sua superfície a <strong>Grande Mancha Escura</strong>, uma tempestade do tamanho da Terra com ventos supersónicos que ultrapassam a barreira da velocidade do som.
+          </p>
+
+          <img src="img/netuno.jpg" alt="Imagem de Netuno capturada pela sonda Voyager 2 em 1989, mostrando sua superfície azulada e a Grande Mancha Escura.">
+        </section>
+
+        <section id="atmosfera">
+          <h3>Atmosfera</h3>
+          <p>
+            A atmosfera é composta principalmente de hidrogénio e hélio, com frações de metano. Os cientistas estimam que, devido à ligeira diferença de composição em comparação com Urano e a fontes de calor internas misteriosas, as suas nuvens gerem os ventos mais velozes do Sistema Solar, alcançando os 2.100 km/h.
+          </p>
+        </section>
+
+        <section id="exploracao">
+          <h3>Exploração Espacial</h3>
+          <p>
+            Em agosto de 1989, a sonda <strong>Voyager 2</strong> realizou o seu último encontro planetário ao sobrevoar o polo norte de Netuno e a sua lua gelada gigante, <strong>Tritão</strong>. Tritão revelou ser um mundo fascinante que orbita de forma retrógrada e expele nitrogénio líquido através de criovulcões ativos.
+          </p>
+        </section>
+
+        <section id="dados">
+          <h3>Dados Comparativos</h3>
+          <ul>
+            <li><strong>Diâmetro:</strong> 49.244 km</li>
+            <li><strong>Massa:</strong> 17,1 massas terrestres</li>
+            <li><strong>Gravidade:</strong> 11,15 m/s²</li>
+            <li><strong>Dia (Rotação):</strong> 16h 6m</li>
+            <li><strong>Luas:</strong> 16 conhecidas (destacando-se Tritão)</li>
+          </ul>
+        </section>
+
+        <section id="citacao">
+          <h3>Citação Científica</h3>
+          <blockquote>
+            <p>"Netuno provou que os confins do Sistema Solar não são estáticos e congelados, mas sim palcos de uma meteorologia violenta e misteriosa."</p>
+            <footer>— Jet Propulsion Laboratory (JPL / NASA)</footer>
+          </blockquote>
+        </section>
+      </article>
+    </main>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

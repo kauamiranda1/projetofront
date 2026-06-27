@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Verbete sobre o planeta Terra — características físicas, atmosfera e biosfera.">
+  <title>Terra — Portal Astronomia Acadêmica</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div id="progress-bar" role="progressbar" aria-label="Progresso de leitura"></div>
+  <button id="btn-topo" aria-label="Voltar ao topo">&#8679;</button>
+
+  <header id="cabecalho-principal">
+    <div class="cabecalho-inner">
+      <div class="logo-area">
+        <h1>Portal Astronomia E10 </h1>
+        <p>Portal de referência científica sobre o Sistema Solar</p>
+      </div>
+      <form class="busca-form" id="form-busca" role="search" aria-label="Buscar artigos">
+        <input type="text" id="campo-busca" name="q" placeholder="Buscar artigos..." aria-label="Termo de busca">
+        <button type="submit">Buscar</button>
+      </form>
+    </div>
+  </header>
+
+  <nav id="nav-categorias" aria-label="Categorias">
+    <ul>
+      <li><a href="index.html">Início</a></li>
+      <li><a href="marte.html" class="ativo">Telúrico</a></li>
+      <li><a href="jupiter.html">Joviano</a></li>
+      <li><a href="urano.html">Neptuniano</a></li>
+      <li><a href="glossario.html">Glossário</a></li>
+    </ul>
+  </nav>
+
+  <div class="wrapper">
+
+    <aside id="sidebar-nav" aria-label="Seções do artigo">
+      <h2>Seções</h2>
+      <ul>
+        <li><a href="#introducao">Introdução</a></li>
+        <li><a href="#caracteristicas">Características Físicas</a></li>
+        <li><a href="#atmosfera">Atmosfera</a></li>
+        <li><a href="#exploracao">Exploração</a></li>
+        <li><a href="#dados">Dados Comparativos</a></li>
+        <li><a href="#citacao">Citação Científica</a></li>
+      </ul>
+      <br>
+      <h2>Planetas Relacionados</h2>
+      <ul>
+        <li><a href="mercurio.html">Mercúrio</a></li>
+        <li><a href="venus.html">Vênus</a></li>
+        <li><a href="marte.html">Marte</a></li>
+      </ul>
+    </aside>
+
+    <main id="conteudo">
+
+      <div id="resultado-busca" role="region" aria-live="polite"></div>
+
+      <article class="verbete">
+        <header>
+          <h1 id="topo-artigo">Terra</h1>
+        </header>
+
+        <section id="introducao">
+          <h3>Introdução</h3>
+          <p>
+            A Terra é o terceiro planeta a partir do Sol e o único corpo celeste conhecido a abrigar vida. Formada há aproximadamente 4,5 bilhões de anos, a Terra interage gravitacionalmente com outros objetos no espaço, especialmente o Sol e a sua única lua natural, a Lua.
+          </p>
+        </section>
+
+        <section id="caracteristicas">
+          <h3>Características Físicas</h3>
+          <p>
+            É o maior e mais denso dos planetas rochosos. A superfície terrestre é dividida em placas tectônicas que migram gradualmente. Cerca de 71% da superfície é coberta por oceanos de água salgada, sendo que o restante consiste de continentes e ilhas. É o único planeta conhecido a ter água no estado líquido em sua superfície.
+          </p>
+
+          <img src="img/terra.jpg" alt="Imagem da Terra mostrando seus continentes e oceanos" width="300" height="300">
+        </section>
+
+        <section id="atmosfera">
+          <h3>Atmosfera</h3>
+          <p>
+            A atmosfera da Terra consiste principalmente de nitrogênio (78%) e oxigênio (21%), com pequenas quantidades de vapor d'água, dióxido de carbono e outros gases. Essa mistura protege a vida filtrando a radiação ultravioleta do Sol através da camada de ozônio e regulando a temperatura através do efeito estufa.
+          </p>
+        </section>
+
+        <section id="exploracao">
+          <h3>Exploração Espacial</h3>
+          <p>
+            A exploração da Terra a partir do espaço começou em 1957 com o lançamento do Sputnik 1. Hoje, uma vasta rede de satélites artificiais e a <strong>Estação Espacial Internacional (ISS)</strong> monitoram constantemente o clima terrestre, os oceanos, a topografia e as mudanças ambientais.
+          </p>
+        </section>
+
+        <section id="dados">
+          <h3>Dados Comparativos</h3>
+          <ul>
+            <li><strong>Diâmetro:</strong> 12.742 km</li>
+            <li><strong>Massa:</strong> 1 massa terrestre (referência)</li>
+            <li><strong>Gravidade:</strong> 9,807 m/s²</li>
+            <li><strong>Dia (Rotação):</strong> 24 horas</li>
+            <li><strong>Luas:</strong> 1 (Lua)</li>
+          </ul>
+        </section>
+
+        <section id="citacao">
+          <h3>Citação Científica</h3>
+          <blockquote>
+            <p>"Olhem de novo para esse ponto. É aqui. É a nossa casa. Somos nós."</p>
+            <footer>— Carl Sagan, sobre a foto 'Pálido Ponto Azul'</footer>
+          </blockquote>
+        </section>
+      </article>
+    </main>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

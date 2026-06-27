@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Verbete sobre Mercúrio — características físicas, atmosfera e exploração espacial.">
+  <title>Mercúrio — Portal Astronomia Acadêmica</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div id="progress-bar" role="progressbar" aria-label="Progresso de leitura"></div>
+  <button id="btn-topo" aria-label="Voltar ao topo">&#8679;</button>
+
+  <header id="cabecalho-principal">
+    <div class="cabecalho-inner">
+      <div class="logo-area">
+        <h1>Portal Astronomia E10 </h1>
+        <p>Portal de referência científica sobre o Sistema Solar</p>
+      </div>
+      <form class="busca-form" id="form-busca" role="search" aria-label="Buscar artigos">
+        <input type="text" id="campo-busca" name="q" placeholder="Buscar artigos..." aria-label="Termo de busca">
+        <button type="submit">Buscar</button>
+      </form>
+    </div>
+  </header>
+
+  <nav id="nav-categorias" aria-label="Categorias">
+    <ul>
+      <li><a href="index.html">Início</a></li>
+      <li><a href="marte.html" class="ativo">Telúrico</a></li>
+      <li><a href="jupiter.html">Joviano</a></li>
+      <li><a href="urano.html">Neptuniano</a></li>
+      <li><a href="glossario.html">Glossário</a></li>
+    </ul>
+  </nav>
+
+  <div class="wrapper">
+
+    <aside id="sidebar-nav" aria-label="Seções do artigo">
+      <h2>Seções</h2>
+      <ul>
+        <li><a href="#introducao">Introdução</a></li>
+        <li><a href="#caracteristicas">Características Físicas</a></li>
+        <li><a href="#atmosfera">Atmosfera</a></li>
+        <li><a href="#exploracao">Exploração</a></li>
+        <li><a href="#dados">Dados Comparativos</a></li>
+        <li><a href="#citacao">Citação Científica</a></li>
+      </ul>
+      <br>
+      <h2>Planetas Relacionados</h2>
+      <ul>
+        <li><a href="venus.html">Vênus</a></li>
+        <li><a href="terra.html">Terra</a></li>
+        <li><a href="marte.html">Marte</a></li>
+      </ul>
+    </aside>
+
+    <main id="conteudo">
+
+      <div id="resultado-busca" role="region" aria-live="polite"></div>
+
+      <article class="verbete">
+        <header>
+          <h1 id="topo-artigo">Mercúrio</h1>
+        </header>
+
+        <section id="introducao">
+          <h3>Introdução</h3>
+          <p>
+            Mercúrio é o menor e mais interno planeta do Sistema Solar. Orbitando o Sol a uma distância média de apenas 0,39 <abbr title="Unidades Astronômicas">UA</abbr>, ele completa uma volta inteira em apenas 88 dias terrestres. Devido à sua proximidade com a nossa estrela, a observação a partir da Terra é um desafio, sendo visível apenas próximo ao nascer ou ao pôr do sol.
+          </p>
+        </section>
+
+        <section id="caracteristicas">
+          <h3>Características Físicas</h3>
+          <p>
+            A superfície de Mercúrio é fortemente craterizada, muito semelhante à da nossa Lua, indicando que o planeta está geologicamente inativo há bilhões de anos. Uma das suas características mais notáveis é a enorme variação térmica: devido à ausência de uma atmosfera espessa para reter o calor, as temperaturas equatoriais variam de <strong>-173 °C à noite para até 427 °C durante o dia</strong>.
+          </p>
+
+          <img src="img/mercurio.jpg" alt="Imagem de Mercúrio, mostrando sua superfície fortemente craterizada." width="300" height="300" style="object-fit: cover; border-radius: 8px;">
+
+          <p>
+            Internamente, Mercúrio é incrivelmente denso. Cientistas estimam que seu núcleo de ferro e níquel ocupe cerca de 85% do raio do planeta, gerando um campo magnético global, embora fraco, equivalente a cerca de 1% da força do campo magnético da Terra.
+          </p>
+        </section>
+
+        <section id="atmosfera">
+          <h3>Atmosfera</h3>
+          <p>
+            Mercúrio não possui uma atmosfera verdadeira como a da Terra ou de Vênus. Em vez disso, ele tem uma tênue <strong>exosfera</strong> composta por átomos ejetados de sua superfície pelo impacto do vento solar e de micrometeoritos. Essa camada extremamente rarefeita contém traços de oxigênio, sódio, hidrogênio, hélio e potássio.
+          </p>
+        </section>
+
+        <section id="exploracao">
+          <h3>Exploração Espacial</h3>
+          <p>
+            Alcançar Mercúrio exige uma imensa quantidade de energia para frear uma espaçonave contra a imensa atração gravitacional do Sol. Até o momento, o planeta foi visitado por poucas missões principais:
+          </p>
+          <ul>
+            <li><strong>Mariner 10 (1974–1975):</strong> A primeira espaçonave a se aproximar de Mercúrio, mapeando cerca de 45% de sua superfície através de três sobrevoos.</li>
+            <li><strong>MESSENGER (2004–2015):</strong> A primeira sonda a orbitar o planeta. Completou o mapeamento de 100% da superfície e confirmou a existência de gelo de água nas crateras polares permanentemente sombreadas.</li>
+            <li><strong>BepiColombo (Em andamento):</strong> Uma missão conjunta da ESA (Europa) e JAXA (Japão), lançada em 2018 e prevista para entrar na órbita de Mercúrio em 2025.</li>
+          </ul>
+        </section>
+
+        <section id="dados">
+          <h3>Dados Comparativos</h3>
+          <ul>
+            <li><strong>Diâmetro:</strong> 4.879 km</li>
+            <li><strong>Massa:</strong> 3,30 × 10<sup>23</sup> kg (0,055 massas terrestres)</li>
+            <li><strong>Gravidade:</strong> 3,7 m/s²</li>
+            <li><strong>Dia (Rotação):</strong> 58,6 dias terrestres</li>
+            <li><strong>Luas:</strong> Nenhuma conhecida</li>
+          </ul>
+        </section>
+
+        <section id="citacao">
+          <h3>Citação Científica</h3>
+          <blockquote>
+            <p>"A exploração de Mercúrio nos obriga a reavaliar constantemente nossas teorias sobre como os planetas rochosos se formaram e evoluíram. Ele é um mundo de extremos, surpresas e mistérios persistentes."</p>
+            <footer>— Equipe Científica da Missão MESSENGER, NASA</footer>
+          </blockquote>
+        </section>
+      </article>
+    </main>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

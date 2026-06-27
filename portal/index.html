@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portal Acadêmico de Astronomia — artigos sobre planetas, fenômenos e o universo.">
+  <meta name="author" content="Portal Astronomia">
+  <title>Portal Astronomia</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div id="progress-bar" role="progressbar" aria-label="Progresso de leitura"></div>
+
+  <button id="btn-topo" aria-label="Voltar ao topo">&#8679;</button>
+
+  <header id="cabecalho-principal">
+    <div class="cabecalho-inner">
+      <div class="logo-area">
+        <h1>Portal Astronomia E10 </h1>
+        <p>Portal de referência científica sobre o Sistema Solar</p>
+      </div>
+      <form class="busca-form" id="form-busca" role="search" aria-label="Buscar artigos">
+        <label for="campo-busca" class="sr-only">Buscar artigos</label>
+        <input type="text" id="campo-busca" name="q" placeholder="Buscar artigos..." aria-label="Termo de busca">
+        <button type="submit">Buscar</button>
+      </form>
+    </div>
+  </header>
+
+  <nav id="nav-categorias" aria-label="Categorias">
+    <ul>
+      <li><a href="index.html" class="ativo">Início</a></li>
+      <li><a href="marte.html">Telúrico</a></li>
+      <li><a href="jupiter.html">Joviano</a></li>
+      <li><a href="urano.html">Neptuniano</a></li>
+      <li><a href="glossario.html">Glossário</a></li>
+    </ul>
+  </nav>
+
+  <div class="wrapper home-layout">
+
+    <aside id="sidebar-nav" aria-label="Navegação por artigos">
+      <h2>Artigos</h2>
+      <ul>
+        <li><a href="mercurio.html">Mercúrio</a></li>
+        <li><a href="venus.html">Vênus</a></li>
+        <li><a href="terra.html">Terra</a></li>
+        <li><a href="marte.html">Marte</a></li>
+        <li><a href="jupiter.html">Júpiter</a></li>
+        <li><a href="saturno.html">Saturno</a></li>
+        <li><a href="urano.html">Urano</a></li>
+        <li><a href="netuno.html">Netuno</a></li>
+        <li><a href="glossario.html">Glossário</a></li>
+      </ul>
+    </aside>
+
+    <main id="conteudo">
+
+      <div id="resultado-busca" role="region" aria-live="polite"></div>
+
+      <article class="verbete">
+        <header>
+          <h1>Bem-vindo ao Portal Astronomia Acadêmica</h1>
+        </header>
+
+        <section>
+          <p>
+            Este portal reúne verbetes detalhados sobre os oito planetas do
+            <abbr title="Sistema Solar — conjunto formado pelo Sol e todos os corpos celestes que orbitam ao seu redor">Sistema Solar</abbr>,
+            incluindo dados físicos, atmosféricos e históricos baseados em fontes da
+            <abbr title="NASA — National Aeronautics and Space Administration">NASA</abbr> e da
+            <abbr title="ESA — European Space Agency (Agência Espacial Europeia)">ESA</abbr>.
+          </p>
+
+          <blockquote>
+            "A astronomia compele a alma a olhar para cima e nos leva de um mundo para outro."
+            <cite>— Platão, A República</cite>
+          </blockquote>
+        </section>
+
+        <section>
+          <h3>Comparativo Geral dos Planetas</h3>
+          <div class="tabela-wrapper">
+            <table>
+              <caption>Dados comparativos dos planetas do Sistema Solar</caption>
+              <thead>
+                <tr>
+                  <th>Planeta</th>
+                  <th>Tipo</th>
+                  <th>Diâmetro (km)</th>
+                  <th>Dist. do Sol (<abbr title="Unidade Astronômica — distância média entre a Terra e o Sol (≈149,6 milhões de km)">UA</abbr>)</th>
+                  <th>Luas conhecidas</th>
+                  <th>Temp. média (°C)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><a href="artigo-mercurio.html">Mercúrio</a></td>
+                  <td>Telúrico</td>
+                  <td>4.879</td>
+                  <td>0,39</td>
+                  <td>0</td>
+                  <td>167</td>
+                </tr>
+                <tr>
+                  <td><a href="artigo-venus.html">Vênus</a></td>
+                  <td>Telúrico</td>
+                  <td>12.104</td>
+                  <td>0,72</td>
+                  <td>0</td>
+                  <td>464</td>
+                </tr>
+                <tr>
+                  <td><a href="artigo-terra.html">Terra</a></td>
+                  <td>Telúrico</td>
+                  <td>12.742</td>
+                  <td>1,00</td>
+                  <td>1</td>
+                  <td>15</td>
+                </tr>
+                <tr>
+                  <td><a href="artigo-marte.html">Marte</a></td>
+                  <td>Telúrico</td>
+                  <td>6.779</td>
+                  <td>1,52</td>
+                  <td>2</td>
+                  <td>-65</td>
+                </tr>
+                <tr>
+                  <td><a href="artigo-jupiter.html">Júpiter</a></td>
+                  <td>Joviano</td>
+                  <td>139.820</td>
+                  <td>5,20</td>
+                  <td>95</td>
+                  <td>-110</td>
+                </tr>
+                <tr>
+                  <td><a href="artigo-saturno.html">Saturno</a></td>
+                  <td>Joviano</td>
+                  <td>116.460</td>
+                  <td>9,58</td>
+                  <td>146</td>
+                  <td>-140</td>
+                </tr>
+                <tr>
+                  <td><a href="artigo-urano.html">Urano</a></td>
+                  <td>Neptuniano</td>
+                  <td>50.724</td>
+                  <td>19,18</td>
+                  <td>28</td>
+                  <td>-195</td>
+                </tr>
+                <tr>
+                  <td><a href="artigo-netuno.html">Netuno</a></td>
+                  <td>Neptuniano</td>
+                  <td>49.244</td>
+                  <td>30,07</td>
+                  <td>16</td>
+                  <td>-200</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </article>
+
+    </main>
+  </div> <footer id="rodape">
+    <p>&copy; 2026 Equipe 10. Todos os direitos reservados.</p>
+    <p>Dados baseados em observações astronômicas da NASA e ESA.</p>
+  </footer>
+
+  <script>
+    // Seleciona os elementos da interface
+    const progressBar = document.getElementById('progress-bar');
+    const btnTopo = document.getElementById('btn-topo');
+
+    //  rolagem da página
+    window.addEventListener('scroll', () => {
+      // Cálculo da barra de progresso
+      const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+      const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      const scrollPercent = (scrollTop / scrollHeight) * 100;
+      
+      progressBar.style.width = scrollPercent + '%';
+
+      if (scrollTop > 300) {
+        btnTopo.classList.add('visivel');
+        btnTopo.style.display = 'flex';
+      } else {
+        btnTopo.classList.remove('visivel');
+        btnTopo.style.display = 'none';
+      }
+    });
+
+    btnTopo.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+
+    document.getElementById('form-busca').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const termo = document.getElementById('campo-busca').value;
+      if(termo) {
+        alert('Busca por: "' + termo + '" em desenvolvimento.');
+      }
+    });
+  </script>
+</body>
+</html>

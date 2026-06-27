@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Glossário de termos astronômicos — Portal Astronomia Acadêmica.">
+  <title>Glossário — Portal Astronomia Acadêmica</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="progress-bar" role="progressbar" aria-label="Progresso de leitura"></div>
+  <button id="btn-topo" aria-label="Voltar ao topo">&#8679;</button>
+  
+  <header id="cabecalho-principal">
+    <div class="cabecalho-inner">
+      <div class="logo-area">
+        <h1>&#9733; Astronomia Acadêmica</h1>
+        <p>Portal de referência científica sobre o Sistema Solar</p>
+      </div>
+      <form class="busca-form" id="form-busca" role="search" aria-label="Buscar artigos">
+        <input type="text" id="campo-busca" name="q" placeholder="Buscar artigos..." aria-label="Termo de busca">
+        <button type="submit">Buscar</button>
+      </form>
+    </div>
+  </header>
+
+  <nav id="nav-categorias" aria-label="Categorias">
+    <ul>
+      <li><a href="index.html">Início</a></li>
+      <li><a href="marte.html">Planetas Rochosos</a></li>
+      <li><a href="jupiter.html">Gigantes Gasosos</a></li>
+      <li><a href="urano.html">Gigantes de Gelo</a></li>
+      <li><a href="glossario.html" class="ativo">Glossário</a></li>
+    </ul>
+  </nav>
+
+  <div class="wrapper home-layout">
+    <aside id="sidebar-nav" aria-label="Navegação por artigos">
+      <h2>Artigos</h2>
+      <ul>
+        <li><a href="mercurio.html">Mercúrio</a></li>
+        <li><a href="venus.html">Vênus</a></li>
+        <li><a href="terra.html">Terra</a></li>
+        <li><a href="marte.html">Marte</a></li>
+        <li><a href="jupiter.html">Júpiter</a></li>
+        <li><a href="saturno.html">Saturno</a></li>
+        <li><a href="urano.html">Urano</a></li>
+        <li><a href="netuno.html">Netuno</a></li>
+        <li><a href="glossario.html">Glossário</a></li>
+      </ul>
+    </aside>
+
+    <main id="conteudo">
+      <div id="resultado-busca" role="region" aria-live="polite"></div>
+      <article class="verbete">
+        <header>
+          <h1>Glossário de Astronomia</h1>
+          <time datetime="2026-06-25">Atualizado em 25 de junho de 2026</time>
+        </header>
+
+        <section class="glossario">
+          <p>
+            Definições dos principais termos utilizados nos verbetes deste portal,
+            organizados para facilitar a compreensão de leitores iniciantes e intermediários.
+          </p>
+
+          <dl>
+            <dt><strong><abbr title="UA — Unidade Astronômica">UA</abbr> — Unidade Astronômica</strong></dt>
+            <dd>Unidade de medida equivalente à distância média entre a Terra e o Sol, aproximadamente 149,6 milhões de km. Utilizada para expressar distâncias dentro do Sistema Solar.</dd>
+
+            <dt><strong>Planeta</strong></dt>
+            <dd>Corpo celeste que orbita uma estrela, tem massa suficiente para assumir forma aproximadamente esférica e limpou sua órbita de outros corpos, conforme definição da <abbr title="IAU — International Astronomical Union (União Astronômica Internacional)">IAU</abbr> em 2006.</dd>
+
+            <dt><strong>Atmosfera</strong></dt>
+            <dd>Camada de gases mantida ao redor de um corpo celeste pela ação gravitacional. Pode conter vapores, aerossóis e partículas sólidas em suspensão.</dd>
+
+            <dt><strong>Órbita</strong></dt>
+            <dd>Trajetória curvilínea descrita por um corpo celeste ao redor de outro sob influência gravitacional. As órbitas planetárias são elípticas, conforme as Leis de Kepler.</dd>
+
+            <dt><strong>Gravidade</strong></dt>
+            <dd>Força fundamental que atrai massas entre si. Determina a estrutura dos planetas, a formação das estrelas e o movimento dos corpos celestes.</dd>
+
+            <dt><strong><abbr title="CO₂ — Dióxido de Carbono">CO₂</abbr> — Dióxido de Carbono</strong></dt>
+            <dd>Gás composto por um átomo de carbono ligado a dois átomos de oxigênio. Presente nas atmosferas de Vênus e Marte em alta concentração; na Terra, é regulado pelo ciclo do carbono.</dd>
+
+            <dt><strong>Criosfera</strong></dt>
+            <dd>Conjunto das regiões de um planeta onde a água existe no estado sólido (gelo), incluindo calotas polares, glaciares e permafrost.</dd>
+
+            <dt><strong>Período Orbital</strong></dt>
+            <dd>Tempo que um corpo celeste leva para completar uma volta ao redor do corpo que orbita. Para os planetas do Sistema Solar, é medido em dias ou anos terrestres.</dd>
+
+            <dt><strong>Exoplaneta</strong></dt>
+            <dd>Planeta que orbita uma estrela fora do Sistema Solar. Milhares de exoplanetas foram confirmados pelos telescópios Kepler e TESS da <abbr title="NASA — National Aeronautics and Space Administration">NASA</abbr>.</dd>
+
+            <dt><strong>Magnitude</strong></dt>
+            <dd>Medida da luminosidade de um objeto celeste. Quanto menor o número (ou mais negativo), mais brilhante o objeto. A escala foi formalizada por Hiparco na Grécia Antiga e, posteriormente, redefinida de forma matemática rigorosa por N. R. Pogson no século XIX.</dd>
+
+            <dt><strong>Albedo</strong></dt>
+            <dd>Medida da refletividade de uma superfície ou corpo celeste. Um albedo de 0 indica absorção total da luz (escuro), enquanto um albedo de 1 indica reflexão total (brilhante).</dd>
+
+            <dt><strong>Ano-luz</strong></dt>
+            <dd>Unidade de comprimento correspondente à distância que a luz percorre no vácuo em um ano juliano (cerca de 9,46 trilhões de quilômetros). Usada para medir distâncias interestelares e intergalácticas.</dd>
+          </dl>
+        </section>
+
+      </article>
+
+    </main>
+  </div> 
+  
+  <footer id="rodape">
+    <p>&copy; 2026 Equipe 10. Todos os direitos reservados.</p>
+    <p>Glossário elaborado com base em referências da IAU, NASA e ESA.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
